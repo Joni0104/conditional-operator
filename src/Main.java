@@ -93,13 +93,19 @@ public class Main {
 
         System.out.println("Задача №7");
 
-        int one = 3;
-        int two =5;
+        int one = 7;
+        int two =8;
         int three = 4;
 
-        if (three >=two && three >= one){System.out.println("Третье число самое большое.");}
-        else if (two >= one && two >= three){System.out.println("Второе число самое большое.");}
-        else {System.out.println("Первое число самое большое");}
+        if (one >=two && one >= three){System.out.println("Первое число " + one + " самое большое.");}
+        else {
+            if (two >= three) {
+                System.out.println("Второе число " + two + " самое большое.");
+            } else {
+                System.out.println("Третье число " + three + " самое большое");
+            }
+        }
+
 
 
 
